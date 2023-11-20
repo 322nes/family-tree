@@ -1,0 +1,40 @@
+.resize_r, .resize_b {
+
+    position: absolute;
+}
+
+.resize_r {
+
+    width: 4px;
+
+    top: 0;
+    right: -2px;
+    bottom: 5px;
+
+    cursor: e-resize;
+}
+
+.resize_b {
+
+    height: 4px;
+
+    left: 0;
+    right: 5px;
+    bottom: -2px;
+
+    cursor: n-resize;
+}
+
+.resize_r.resize_b {
+
+    height: 7px;
+    width: 7px;
+
+    left: unset;
+    top: unset;
+
+    right: -2px;
+    bottom: -2px;
+
+    cursor: se-resize;
+}

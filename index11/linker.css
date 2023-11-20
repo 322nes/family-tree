@@ -1,0 +1,17 @@
+div.linked {
+
+    background-color: red !important;
+    background-image: none !important;
+}
+
+canvas.linker {
+
+    z-index: 200;
+    border: 1px solid red;
+}
+
+canvas[of][ot] {
+
+    position: absolute;
+    z-index: 1;
+}

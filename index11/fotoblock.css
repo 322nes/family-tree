@@ -1,0 +1,76 @@
+.fotoblock.selected {
+
+    background-color: #828da0;
+}
+
+.fotoblock:not(.selected) .fotoborder {
+
+    box-shadow: 3px 3px 7px rgb(0 0 0 / 50%);
+}
+
+.fotoblock {
+
+    width: 150px;
+    height: 210px;
+
+    position: absolute;
+    padding: 3px;
+    transform-origin: top left;
+    box-sizing: border-box;
+}
+
+.fotoblock .fotoborder {
+
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: white;
+    background-color: #29e;
+    border-radius: 15px;
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.fotoblock .fotoborder .fotoimg {
+
+    position: relative;
+    transform-origin: top left;
+}
+
+.fotoblock .fio {
+
+    color: rgba(13, 65, 103, 0.96);
+    position: absolute;
+    bottom: 16px;
+    background-color: #fb3;
+    right: 1px;
+    padding: 3px 5px;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 70%;
+    max-width: 105%;
+    min-height: 20px;
+    text-align: right;
+}
+
+#fotoedit {
+
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #fb3;
+    border-radius: 12px;
+}
+
+#fotoedit div {
+
+    border: 3px solid #fb3;
+    width: 50%;
+    height: 40%;
+    margin: 30% 25%;
+    border-radius: 50px;
+}

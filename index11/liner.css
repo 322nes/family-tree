@@ -1,0 +1,19 @@
+div.linerX, div.linerY {
+
+    position: absolute;
+
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+div.linerX {
+
+    height: 1px;
+    border-top: 1px dotted dodgerblue;
+}
+
+div.linerY {
+
+    width: 1px;
+    border-left: 1px dotted dodgerblue;
+}

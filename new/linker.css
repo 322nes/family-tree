@@ -1,0 +1,80 @@
+canvas[of][ot] {
+
+    position: absolute;
+    z-index: 1;
+    /*    border: 1px solid blue;*/
+}
+
+canvas[of][ot].selected {
+
+    background-color: #ffffffd5;
+
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+
+/*    border: 1px dotted red;
+    margin: -1px;
+*/
+    z-index: 20;
+}
+
+div.link_editor {
+
+    position: absolute;
+
+    font-size: 13px;
+
+    z-index: 40;
+
+/*    background-color: rgba(255, 255, 255, 0.58);*/
+}
+
+div.link_editor i {
+
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+
+canvas.linker {
+
+    z-index: 10;
+    /*    border: 1px solid red*/
+}
+
+div.linked {
+
+    background-color: red;
+/*    border: 1px solid red;*/
+}
+
+canvas.link:hover {
+
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.2);
+
+}
+
+/*
+:not(.selected
+background-color: #ffffffc0;
+canvas.link.selected:hover {
+
+    background-color: #00ff0050;
+}
+
+canvas.link:not(.selected:hover {
+
+    background-color: #0000ff0a;
+}
+
+canvas.link.selected:hover {
+
+    background-color: #ff00000a;
+}
+
+*/
+
+canvas.link.new1 {
+
+    border: 1px solid red;
+    z-index: 5;
+}

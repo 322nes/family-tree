@@ -1,0 +1,158 @@
+div.divEditBlockContainer {
+
+    display: none;
+
+    position: absolute;
+
+    left: -200px;
+    right: -200px;
+    top: -65px;
+
+    text-align: center;
+}
+
+div.divEditBlock {
+
+    display: inline-block;
+
+    border: 2px solid snow;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 7px rgb(0 0 0 / 50%);
+}
+
+div.divEditBlock > div {
+
+    display: inline-block;
+    padding: 5px;
+    margin: 7px;
+
+    color: darkslategray;
+
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900;
+    font-size: 20px;
+
+    min-width: 20px;
+
+    cursor: pointer;
+}
+
+div.deleter::before {
+
+    content: "\f2ed";
+}
+
+div.placein::before {
+
+    content: "\f066";
+}
+
+div.linker::before {
+
+    content: "\f0c1";
+}
+
+div.tofront::before {
+
+    content: "\f139";
+}
+
+div.toback::before {
+
+    content: "\f13a";
+}
+
+div.kadr::before {
+
+    content: "\f118";
+}
+
+div.upload::before {
+
+    content: "\f093";
+}
+
+/*
+
+div.resizer::before {
+
+    content: "\f31e";
+}
+
+div.resizer, div.tofront, div.toback, div.deleter, div.linker, div.addobj, div.addcnt {
+
+    position: absolute;
+    z-index: 3;
+
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900;
+    font-size: 10px;
+
+    border: none;
+
+    right: 1px;
+}
+
+div.resizer {
+
+    bottom: 5px;
+    right: 7px;
+}
+
+
+div.deleter {
+
+    top: 8px;
+    right: 33px;
+}
+
+
+div.linker {
+
+    top: 8px;
+    right: 20px;
+}
+
+div.addobj {
+
+    top: 8px;
+    right: 46px;
+}
+
+div.addobj::before {
+
+    content: "\f0fe";
+}
+
+div.addcnt {
+
+    top: 8px;
+    right: 59px;
+}
+
+div.addcnt::before {
+
+    content: "\f065";
+}
+
+div.tofront {
+
+    top: 8px;
+    right: 7px;
+}
+
+div.toback {
+
+    top: 20px;
+    right: 7px;
+}
+
+
+div.allow_select.selected {
+
+    z-index: 4;
+}
+
+
+*/

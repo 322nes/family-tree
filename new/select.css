@@ -1,0 +1,13 @@
+.obj.allow_select.selected, .grp.allow_select.selected {
+
+    background-color: rgba(13, 65, 103, 0.66);
+/*    border: 1px solid saddlebrown;*/
+
+/*    margin: -2px;*/
+}
+
+.selectBlock {
+
+    position: absolute;
+    border: 3px dotted #29f;
+}
